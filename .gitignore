@@ -31,4 +31,6 @@ ENV/
 .idea/
 *.log
 data_ingestion/
-*.parquet
+data_processed/
+preprocessing/bigquery.json
+*.crc
