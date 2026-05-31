@@ -1,0 +1,36 @@
+# ==========================================
+# 1. MÔI TRƯỜNG & BẢO MẬT (TUYỆT ĐỐI KHÔNG PUSH)
+# ==========================================
+# Thư mục môi trường ảo Python
+env/
+venv/
+
+# File chứa biến môi trường (Mật khẩu Snowflake, Kafka...)
+.env
+
+# ==========================================
+# 2. DỮ LIỆU ĐỘNG & KẾT QUẢ RUNTIME (CHECKPOINTS)
+# ==========================================
+# Thư mục chứa dữ liệu sinh ra trong quá trình chạy Spark/Kafka
+checkpoints/
+*.csv
+
+# ==========================================
+# 3. DỮ LIỆU TĨNH (DATASETS)
+# ==========================================
+# Bỏ qua các file dữ liệu lớn tải về từ DB để tránh phình to Repo Github
+static_data/
+*.parquet
+
+# ==========================================
+# 4. CACHE & LOGS BỘ NHỚ PYTHON / SPARK
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Spark cụ thể (nếu có sinh ra thêm)
+spark-warehouse/
+derby.log
+metastore_db/
