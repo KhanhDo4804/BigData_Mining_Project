@@ -34,3 +34,10 @@ data_ingestion/
 data_processed/
 preprocessing/bigquery.json
 *.crc
+
+# Ignore IDE and environment artifacts
+.streamlit/
+demo/_docx_report/
+demo/scripts/
+__pycache__/
+*.pyc
