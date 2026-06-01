@@ -1,3 +1,3 @@
-# BigData Mining - Ethereum Token Portfolio Analysis
+# Ethereum Token Recommendation and Fraud Detection System
 
 
